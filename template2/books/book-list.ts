@@ -1,7 +1,6 @@
-import { Good } from '../../../../core-library/src/lib/component/shop-list/good.interface';
-import { createGoodList } from '../../../../core-library/src/lib/component/shop-list/adapter';
+import { createBookList } from '../../src/app/page/book-shop-page/adapter';
 
-export const BOOK_LIST: Good[] = createGoodList([
+export const BOOK_LIST = createBookList([
     {
         label: 'All About Laptop Computer Parts',
         price: 1953
