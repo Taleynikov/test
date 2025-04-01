@@ -1,4 +1,4 @@
-import { createBookList } from '../../src/app/page/book-shop-page/adapter';
+import { createBookList } from '../../src/app/page/book-shop-page/data/adapter';
 
 export const BOOK_LIST = createBookList([
     {
